@@ -1,6 +1,48 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 50px;
+    margin: 5%;
   };
 
+  /* Container for two columns */
+.twocolumncontainer {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  gap: 10%;
+  width: 100%;
+}
+
+/* Left-hand column */
+.leftcolumn {
+    /* position: relative; */
+    display: inline-block; 
+    vertical-align: middle;
+    text-align: left;
+    width: 40%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 5%;
+}
+
+/* right-hand column */
+.rightcolumn {
+  /* position: relative; */
+  display: inline-block; 
+  vertical-align: middle;
+  text-align: left;
+  width: 40%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  margin-left: 5%;
+  margin-right: 0%;
+}
+
+.main {
+  overflow: hidden;
+  width: 80%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
 
